@@ -1,4 +1,10 @@
-import { Button, Container, Nav, Navbar as NavbarBs } from "react-bootstrap";
+import {
+  Button,
+  Container,
+  Nav,
+  Navbar as NavbarBs,
+  NavDropdown
+} from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import { useShoppingCart } from "../context/ShoppingCartContext";
 
@@ -7,14 +13,42 @@ export function Navbar() {
   return (
     <NavbarBs sticky="top" className="bg-white shadow-sm mb-3">
       <Container>
-        <Nav className="me-auto">
-          <Nav.Link to="/" as={NavLink}>
+        <Nav className="me-auto fs-3">
+          <Nav.Link to="/" as={NavLink} className="mx-3">
             Home
           </Nav.Link>
-          <Nav.Link to="/store" as={NavLink}>
-            Store
-          </Nav.Link>
-          <Nav.Link to="/about" as={NavLink}>
+          {/* Store Dropdown */}
+          <NavDropdown title="Store" id="store-dropdown">
+            <NavDropdown.Item
+              as={NavLink}
+              className="dropdown-item fs-4"
+              to="/store/electronic"
+            >
+              Electronic
+            </NavDropdown.Item>
+            <NavDropdown.Item
+              as={NavLink}
+              className="dropdown-item fs-4"
+              to="/store/food"
+            >
+              Food
+            </NavDropdown.Item>
+            <NavDropdown.Item
+              as={NavLink}
+              className="dropdown-item fs-4"
+              to="/store/christmas"
+            >
+              Christmas
+            </NavDropdown.Item>
+            <NavDropdown.Item
+              as={NavLink}
+              className="dropdown-item fs-4"
+              to="/store/others"
+            >
+              Others
+            </NavDropdown.Item>
+          </NavDropdown>
+          <Nav.Link to="/about" as={NavLink} className="mx-3">
             About
           </Nav.Link>
         </Nav>
