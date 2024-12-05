@@ -1,0 +1,38 @@
+[
+  {
+    "id": 19,
+    "name": "Silver Rings",
+    "price": 129.99,
+    "imgUrl": "/imgs/other1.jpg"
+  },
+  {
+    "id": 20,
+    "name": "GOlden Ring",
+    "price": 199.99,
+    "imgUrl": "/imgs/other2.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Wedding Rings",
+    "price": 699.9,
+    "imgUrl": "/imgs/other3.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Golden Watch",
+    "price": 999.9,
+    "imgUrl": "/imgs/other4.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Golden Watch S",
+    "price": 499,
+    "imgUrl": "/imgs/other5.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Silver Watch",
+    "price": 399.9,
+    "imgUrl": "/imgs/other6.jpg"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop - Netbook",
+    "price": 500,
+    "imgUrl": "/imgs/laptop1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Gaming Laptop",
+    "price": 1599,
+    "imgUrl": "/imgs/laptop2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Laptop 13",
+    "price": 600,
+    "imgUrl": "/imgs/laptop3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Laptop - Touchpad",
+    "price": 1400,
+    "imgUrl": "/imgs/laptop4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Laptop - Chrombook",
+    "price": 459.9,
+    "imgUrl": "/imgs/laptop5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Apple MacBook",
+    "price": 1999.99,
+    "imgUrl": "/imgs/laptop6.jpg"
+  }
+]

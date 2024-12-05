@@ -8,6 +8,7 @@ type StoreItemProps = {
   imgUrl: string;
 };
 export function StoreItem({ id, name, price, imgUrl }: StoreItemProps) {
+  console.log("Rendering item:", name);
   const {
     getItemQuantity,
     increaseCartQuantity,

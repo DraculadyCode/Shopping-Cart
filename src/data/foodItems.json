@@ -1,0 +1,38 @@
+[
+  {
+    "id": 7,
+    "name": "Apples",
+    "price": 2.99,
+    "imgUrl": "/imgs/food1.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Oranges",
+    "price": 1.99,
+    "imgUrl": "/imgs/food2.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Kiwi",
+    "price": 6,
+    "imgUrl": "/imgs/food3.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Cherry",
+    "price": 7.99,
+    "imgUrl": "/imgs/food4.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Paprika",
+    "price": 4.9,
+    "imgUrl": "/imgs/food5.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Cucamber",
+    "price": 3.9,
+    "imgUrl": "/imgs/food6.jpg"
+  }
+]

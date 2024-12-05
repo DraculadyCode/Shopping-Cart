@@ -1,0 +1,38 @@
+[
+  {
+    "id": 13,
+    "name": "Car and Tree",
+    "price": 12.99,
+    "imgUrl": "/imgs/christmas1.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Mini Santa",
+    "price": 10.99,
+    "imgUrl": "/imgs/christmas2.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Tree Decoration",
+    "price": 6.9,
+    "imgUrl": "/imgs/christmas3.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Designed Decoration",
+    "price": 9.99,
+    "imgUrl": "/imgs/christmas4.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Tree - Large",
+    "price": 49.9,
+    "imgUrl": "/imgs/christmas5.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Door Decoration",
+    "price": 30.9,
+    "imgUrl": "/imgs/christmas6.jpg"
+  }
+]
